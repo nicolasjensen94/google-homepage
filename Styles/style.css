@@ -1,0 +1,139 @@
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    li {
+        float: left;
+    }
+    a {
+      display: block;
+      padding-left: 15px;
+      color: #000000;
+      font-size: 13px;
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .navbar-left {
+        float: left;
+        display: flex;
+        justify-content: flex-end; 
+    }
+    .material-icons {
+        float: right;
+        display: flex;
+        justify-content: flex-end;
+        font-family: "Material Icons";
+    }
+    .material-icons a {
+        font-size: 30px;
+        color: gray;
+        padding-right: 2px;
+    }
+    .material-icons a:hover {
+        color: #000000;
+        text-decoration: none;
+    }
+    .navbar-right {
+        float: right;
+        display: flex;
+        justify-content: flex-end; 
+    }   
+    .bottom-navbar {
+        background-color:#f2f2f2;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .bottom-navbar a{
+        padding: 14px 16px;
+        font-size: 14px;
+        color: gray;
+    }
+    .sign-in {
+        display: block;
+        margin-left: 15px;
+        background-color: #4387fd;
+        color: white;
+        border: 1px solid #4285f4;  
+        font-weight: bold;
+        border-radius: 2px;
+        padding: 0 12px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+        margin-left: 250px;
+    }
+    .main_hero { 
+        display: flex; 
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .main_input { 
+        display: flex;
+        border: 1px solid lightgray;
+        justify-content: center;
+        align-items: center ;
+        border-radius: 24px;
+        }
+    .main .main_input:hover{
+        box-shadow: 1px 1px 4px gray;
+    }
+    .main_input input{
+        width:494px ;
+        height: 37px;
+        border: none;
+        outline: none;
+    }
+    .main_buttons {
+        display: flex;
+        margin: 15px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .submit {
+        display: flex;
+        margin: 5px;
+        border: none;
+        width: 125.406px;
+        height: 34px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        font-size: 14px;
+        color: rgb(66, 66, 66);
+    }
+    .lucky {
+        display: flex;
+        margin: 5px;
+        border: none;
+        width: 125.406px;
+        height: 34px;
+        text-align:center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        font-size: 14px;
+        color: rgb(66, 66, 66);
+    }
+    .main_buttons button:hover {
+        border: 1px solid gray;
+        color: black;
+        text-decoration: none;
+    }
