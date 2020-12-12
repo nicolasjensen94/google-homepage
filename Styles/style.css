@@ -38,7 +38,7 @@
     .material-icons a {
         font-size: 30px;
         color: gray;
-        padding-right: 2px;
+        padding-right: 10px;
     }
     .material-icons a:hover {
         color: #000000;
